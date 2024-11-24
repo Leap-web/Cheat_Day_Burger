@@ -1,0 +1,214 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    width: 100%;
+    background-color:blanchedalmond;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color:burlywood;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar img {
+    border-radius: 50%;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: brown;
+    font-size: 16px;
+    margin: 0 0.5rem;
+    padding: 0.3rem 0.5rem;
+    display: inline-flex;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+.navbar .brand-link {
+    color: brown;
+    font-size: 24px;
+    font-family: 'Lobster', cursive;
+    margin: 0 1rem;
+}
+
+.navbar a i {
+    margin-right: 8px;
+    color: BROWN;
+}
+
+.navbar a:hover:not(.brand-link) {
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    transform: scale(1.1); 
+    box-shadow: 0 0 15px rgba(0, 86, 179, 0.7);
+}
+
+.promo-text h1,
+.promo-text p {
+  margin-top: 70px;
+  font-family: 'Playfair Display', serif; 
+  color: #333; 
+}
+
+@keyframes floatBurger {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+.promo-image {
+  text-align: center;
+  margin-top: 180px;
+}
+
+
+.promo-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    color: brown;
+    height: 100vh;
+}
+
+.promo-text h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.promo-text h1 span {
+    color: gold;
+}
+
+.promo-button {
+    background-color: orange;
+    color: white;
+    font-size: 1rem;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.promo-button:hover {
+    background-color: brown;
+}
+
+.promo-image img {
+    max-width: 100%;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    transition: 3s;
+    animation: floatBurger 3s infinite ease-in-out; 
+}
+
+
+.card-container {
+    margin-top: -180px; 
+}
+
+.custom-card {
+    background-color:bisque; 
+    border: none; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.custom-card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
+}
+
+.custom-card img {
+    transition: transform 0.3s ease;
+}
+  
+.custom-card:hover img {
+    transform: scale(1.05); 
+}
+
+.membership-section{
+    padding: 50px 20px;
+}
+
+.membership-title{
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 180px;
+    text-align: left;
+    position: relative;
+}
+
+.membership-title::after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: black;
+    margin-top: 5px;
+}
+
+.card-container {
+    margin-top: -180px; 
+}
+
+.c-card {
+    background-color:bisque; 
+    border: none; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.c-card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
+}
+
+.c-card img {
+    transition: transform 0.3s ease;
+}
+  
+.c-card:hover img {
+    transform: scale(1.05); 
+}
+
+.menu-section{
+    padding: 50px 10px;
+}
+
+.menu-title{
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 40px;
+    text-align: left;
+    position: relative;
+}
+
+.menu-title::after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: black;
+    margin-top: 5px;
+}
