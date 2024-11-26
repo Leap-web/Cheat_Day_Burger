@@ -135,7 +135,6 @@ html {
   width: 34rem;
   height: 253px;
   border-radius: 5px;
-
   border: #e9e8e8 solid 2px;
 }
 
@@ -163,11 +162,18 @@ html {
   position: relative;
 }
 
-/* .membership-title::after {
-  content: "";
-  display: block;
-  width: 100px;
-  height: 3px;
-  background-color: black;
-  margin-top: 5px;
+.order-price {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  margin-top: -20px;
+  padding: 0.5rem 1rem;
+}
+/* .order-price p {
+  margin-top: -5px;
 } */
+.price {
+  text-align: left;
+  padding-left: -200px;
+  margin-left: -15px;
+}
