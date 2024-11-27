@@ -177,3 +177,6 @@ html {
   padding-left: -200px;
   margin-left: -15px;
 }
+.card-text {
+  height: 125px;
+}
