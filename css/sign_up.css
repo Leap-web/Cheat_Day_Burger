@@ -1,0 +1,112 @@
+.signup-container {
+  background: rgba(81, 75, 69, 0.8);
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: rgb(223, 106, 38);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  margin: 6px;
+  padding: 10px;
+  background-color: rgb(223, 106, 38);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.back {
+  width: 50%;
+  margin: 6px;
+  padding: 10px;
+  background-color: rgb(31, 0, 236);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.back a {
+  color: #ffffff;
+}
+button:hover {
+  background-color: #333;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.social-buttons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  flex: 1;
+}
+.social-buttons a:hover {
+  background-color: #b3e5fc;
+  color: #000000;
+}
+
+.social-buttons img {
+  margin-right: 8px;
+}
+
+.login-text {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.login-text a {
+  color: #7e57c2;
+  text-decoration: none;
+}
+
+.login-text a:hover {
+  text-decoration: underline;
+}
+
+.login-text {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.login-text a {
+  color: #cbadff;
+  text-decoration: none;
+}
+
+.login-text a:hover {
+  text-decoration: underline;
+}
+img {
+  width: 20px;
+  border-radius: 30px;
+}
